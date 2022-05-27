@@ -4,8 +4,10 @@ $styleVersion: 4.3;
 @import "~@spartacus/styles/index";
 
 :root {
-  // body {
-  --cx-color-primary: pink !important;
-
-  // }
+  body {
+    --cx-color-primary: pink;
+    .search-icon {
+      display: none;
+    }
+  }
 }
